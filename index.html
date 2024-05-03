@@ -9,16 +9,19 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
   </head>
 
   <body>
-    <div class="container-fluid" style="overflow:inherit">
-      <div class="row entire-site" style="overflow:hidden" >
-        <div class="col-3 sidebar" style="background-color: #768b46">
+    <div class="container-fluid">
+      <div class="row entire-site">
+        <div
+          class="col-3 sidebar"
+          style="background-color: #768b46; max-height: 5000px"
+        >
           <div class="nav flex-column intro-image">
             <img
-              src="../img/sidebar-image.jpg"
+              src="img/sidebar-image.jpg"
               style="height: 80%; width: 90%"
               class="sidebar-image"
               alt="sidebar image"
@@ -66,28 +69,45 @@
 
         <div class="col-9 main">
           <div class="content">
-            <h1 class="main-title">Report</h1>
-            <div class="lead" style="padding-bottom: 2%">My project report.</div>
-           
-
-            <b>What is this site about?</b>
-            <p>This website is about my travels during my study abroad in Limerick, Ireland. You can see my thoughts and photos from my recent trips
-                around Ireland. 
+            <h1 class="main-title">Vivian's Study Abroad</h1>
+            <p class="lead">
+              Some blog posts about my Study Abroad in Limerick, Ireland for the
+              Spring 2022 semester.
             </p>
-
-            <b>Is this a complete site?</b>
-            <p>So far, yes. But you could imagine it being a blog that would be updated weekly. 
-            </p>    
-
-            <b>References</b>
-            <p>Navigation: https://getbootstrap.com/docs/4.0/components/navs/#vertical <br>
-              All Photos on this site were taken by me.
-            </p>
-
-            <b>A note on the background-color</b>
-            <p>When the window is 460px or below, the sidebar will remain green. This was done to keep the website readable and I have discussed it with Professor Ryan.
-            </p>  
-        </div>
+            <div class="row articles">
+              <a href="limerick.html"
+                ><img
+                  src="img/limerick1.jpg"
+                  style="height: 400px; width: 1050px"
+                  alt="limerick city"
+                />
+                <h1>Limerick</h1></a
+              >
+              <a href="cliffs.html">
+                <img
+                  src="img/cliffs4.jpg"
+                  style="height: 400px; width: 1050px"
+                  alt="cliffs"
+                />
+                <h1>Cliffs of Moher</h1></a
+              >
+              <a href="cork.html"
+                ><img
+                  src="img/cork3.jpg"
+                  style="height: 400px; width: 1050px"
+                  alt="cork city"
+                />
+                <h1>Cork</h1></a
+              >
+              <a href="dublin.html"
+                ><img
+                  src="img/dublin3.jpg"
+                  style="height: 400px; width: 1050px"
+                  alt="dublin"
+                />
+                <h1>Dublin</h1></a
+              >
+            </div>
           </div>
         </div>
       </div>
